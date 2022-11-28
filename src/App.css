@@ -16,7 +16,7 @@
 }
 .Header {
   color: #fff;
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
 }
@@ -34,7 +34,19 @@
 .navS {
   margin-top: 15px;
 }
-.fa-bars , .fa-user {
+.fa-bars,
+.fa-user {
   color: #414143;
   font-size: 18px;
+}
+.Head{
+  background-image: url(./head.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.Search{
+  height: 56px;
+  background-color: #fff;
 }
