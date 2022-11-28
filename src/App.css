@@ -3,14 +3,30 @@
   src: url(/src/BasisGrotesqueArabicPro-Regular.ttf);
 }
 
-.ahref{
+.ahref {
   background-color: #f4f4f4;
   height: 48px;
 }
 
-.ahref a{
+.ahref a {
   font-family: "Basis Grotesque";
   font-size: 16px;
   font-weight: 500;
   color: #414143;
+}
+.Header {
+  color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.seo-pages {
+  margin: 15px 0px;
+}
+.navS button {
+  color: #414143;
+  font-family: "Basis Grotesque";
+  border: 1px solid #414143;
+  font-size: 13px;
+  background-color: #0000;
 }

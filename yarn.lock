@@ -6736,7 +6736,7 @@ node-int64@^0.4.0:
   resolved "https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz"
   integrity sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==
 
-node-modules@*:
+node-modules@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/node-modules/-/node-modules-1.0.1.tgz"
   integrity sha512-jbUo320kIm2QxI9hA0mtVqet/SE91udPLOI4FgEumJLPva93T3U7CdiwH8+2E1lfiG0Y+Hd8U/NmF4EToYGZsg==
