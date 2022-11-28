@@ -10,18 +10,18 @@
 
 .ahref a {
   font-family: "Basis Grotesque";
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   color: #414143;
 }
 .Header {
   color: #fff;
-  height: 60px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
 }
-.seo-pages {
-  margin: 15px 0px;
+.Logo {
+  margin-top: 15px;
 }
 .navS button {
   color: #414143;
@@ -29,4 +29,12 @@
   border: 1px solid #414143;
   font-size: 13px;
   background-color: #0000;
+  margin-right: 20px;
+}
+.navS {
+  margin-top: 15px;
+}
+.fa-bars , .fa-user {
+  color: #414143;
+  font-size: 18px;
 }
