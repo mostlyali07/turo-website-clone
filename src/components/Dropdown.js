@@ -60,8 +60,8 @@ const App = () => {
     >
       <a onClick={(e) => e.preventDefault()}>
         <Space>
-          <i class="fa-solid fa-bars"></i>
-          <i class="fa-regular fa-user"></i>
+          <i className="fa-solid fa-bars"></i>
+          <i className="fa-regular fa-user"></i>
         </Space>
       </a>
     </Dropdown>

@@ -1,8 +1,9 @@
 import "./App.css";
 import Dropdown from "./components/Dropdown";
-import Datepicker from "./components/Datepicker";
-import { Input } from "antd";
-import { DatePicker } from "antd";
+import { Input, Button, DatePicker, TimePicker } from "antd";
+import dayjs from "dayjs";
+import { SearchOutlined } from '@ant-design/icons';
+
 const onChange = (date, dateString) => {
   console.log(date, dateString);
 };
@@ -52,18 +53,45 @@ function App() {
           </div>
         </div>
         <div className="row Head">
-          <div className="Search mt-3">
-            <div className="col-md-2"></div>
-            <div className="col-md-3">
-              <label className="label_Size">Where</label>
-              <Input size="small" placeholder="small size" />
+          <div className="col-md-2"></div>
+          <div className="col-md-8">
+            <div className="Search mt-3">
+              <div className="seRach">
+                <label className="label_Size">Where</label>
+                <br />
+                <Input
+                  size="default"
+                  placeholder="City, airport, address or hotel"
+                  className="upperInput"
+                />
+              </div>
+              <div className="From">
+                <label className="label_Size">From</label>
+                <br />
+                <DatePicker onChange={onChange} />
+                <TimePicker
+                  onChange={onChange}
+                  defaultOpenValue={dayjs("00:00:00", "HH:mm:ss")}
+                />
+              </div>
+              <div className="Until">
+                <label className="label_Size">Until</label>
+                <br />
+                <DatePicker onChange={onChange} />
+                <TimePicker
+                  onChange={onChange}
+                  defaultOpenValue={dayjs("00:00:00", "HH:mm:ss")}
+                />
+              </div>
+                <Button
+                  type="primary"
+                  shape="circle"
+                  icon={<SearchOutlined />}
+                  className="mt-4"
+                />
             </div>
-            <div className="col-md-2">
-              <DatePicker onChange={onChange} />
-            </div>
-            <div className="col-md-3"></div>
-            <div className="col-md-2"></div>
           </div>
+          <div className="col-md-2"></div>
         </div>
       </div>
     </>

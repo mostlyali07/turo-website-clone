@@ -39,22 +39,41 @@
   color: #414143;
   font-size: 18px;
 }
-.Head{
+.Head {
   background-image: url(./head.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
-  width: ;
 }
-.Search{
-  height: 56px;
+.Search {
+  height: 65px;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
   border-radius: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.label_Size{
+.label_Size {
   font-family: "Basis Grotesque";
   font-size: 12px;
   color: #121214;
+}
+.upperInput {
+  width: 334px;
+}
+.Start_time {
+  border: 0px 1px solid #c7c7c7;
+}
+@media only screen and (max-width: 600px) {
+  .Search {
+    height: auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
 }
