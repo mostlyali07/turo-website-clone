@@ -1,6 +1,11 @@
 import "./App.css";
 import Dropdown from "./components/Dropdown";
 import Datepicker from "./components/Datepicker";
+import { Input } from "antd";
+import { DatePicker } from "antd";
+const onChange = (date, dateString) => {
+  console.log(date, dateString);
+};
 
 function App() {
   return (
@@ -46,9 +51,18 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-12 Head">
-            <Datepicker />
+        <div className="row Head">
+          <div className="Search mt-3">
+            <div className="col-md-2"></div>
+            <div className="col-md-3">
+              <label className="label_Size">Where</label>
+              <Input size="small" placeholder="small size" />
+            </div>
+            <div className="col-md-2">
+              <DatePicker onChange={onChange} />
+            </div>
+            <div className="col-md-3"></div>
+            <div className="col-md-2"></div>
           </div>
         </div>
       </div>

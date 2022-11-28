@@ -1,8 +1,10 @@
 import React from "react";
 import "../App.css";
-import { UserOutlined } from "@ant-design/icons";
 import { Input } from "antd";
-
+import { DatePicker} from 'antd';
+const onChange = (date, dateString) => {
+  console.log(date, dateString);
+};
 const Datepicker = () => {
   return (
     <>
@@ -11,14 +13,12 @@ const Datepicker = () => {
           <div className="col-md-2"></div>
           <div className="Search mt-3">
             <div className="col-md-3">
-                <label>Where</label>
-              <Input
-                size="small"
-                placeholder="small size"
-                prefix={<UserOutlined />}
-              />
+              <label className="label_Size">Where</label>
+              <Input size="small" placeholder="small size" />
             </div>
-            <div className="col-md-2"></div>
+            <div className="col-md-2">
+                <DatePicker onChange={onChange} />
+            </div>
             <div className="col-md-3"></div>
           </div>
           <div className="col-md-2"></div>
