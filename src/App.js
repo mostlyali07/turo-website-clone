@@ -2,7 +2,8 @@ import "./App.css";
 import Dropdown from "./components/Dropdown";
 import { Input, Button, DatePicker, TimePicker } from "antd";
 import dayjs from "dayjs";
-import { SearchOutlined } from '@ant-design/icons';
+import { SearchOutlined } from "@ant-design/icons";
+// import Slider from "./components/Slider";
 
 const onChange = (date, dateString) => {
   console.log(date, dateString);
@@ -83,15 +84,31 @@ function App() {
                   defaultOpenValue={dayjs("00:00:00", "HH:mm:ss")}
                 />
               </div>
-                <Button
-                  type="primary"
-                  shape="circle"
-                  icon={<SearchOutlined />}
-                  className="mt-4"
-                />
+              <Button
+                type="primary"
+                shape="circle"
+                icon={<SearchOutlined />}
+                className="mt-4"
+              />
             </div>
           </div>
           <div className="col-md-2"></div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-2"></div>
+          <div className="col-md-8 First text-center">
+            <h1>Find your drive</h1>
+            <h6>Explore the world's largest car sharing marketplace</h6>
+            <div className="Purple"></div>
+          </div>
+          <div className="col-md-2"></div>
+        </div>
+        <div className="row">
+          <div className="col-md-12">
+            {/* <Slider /> */}
+            </div>
         </div>
       </div>
     </>
