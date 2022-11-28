@@ -21,8 +21,32 @@ const App = () => {
       key: '2',
     },
     {
-      label: '🚗 Become a host',
+      label: 'Become a host',
       key: '3',
+    },
+    {
+      label: 'How Turo works',
+      key: '4',
+    },
+    {
+      label: 'Contact support',
+      key: '5',
+    },
+    {
+      label: 'Legal',
+      key: '6',
+    },
+    {
+      label: 'Insurance & protection',
+      key: '7',
+    },
+    {
+      label: 'Host tools',
+      key: '8',
+    },
+    {
+      label: 'Carculator',
+      key: '9',
     },
   ];
   return (
