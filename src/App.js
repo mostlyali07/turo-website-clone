@@ -3,7 +3,7 @@ import Dropdown from "./components/Dropdown";
 import { Input, Button, DatePicker, TimePicker } from "antd";
 import dayjs from "dayjs";
 import { SearchOutlined } from "@ant-design/icons";
-// import Slider from "./components/Slider";
+import Slider from "./components/Slider";
 
 const onChange = (date, dateString) => {
   console.log(date, dateString);
@@ -107,7 +107,7 @@ function App() {
         </div>
         <div className="row">
           <div className="col-md-12">
-            {/* <Slider /> */}
+            <Slider />
             </div>
         </div>
       </div>

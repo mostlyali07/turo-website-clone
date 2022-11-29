@@ -1,34 +1,40 @@
-import React from "react";
-import Slider from "react-slick";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import Car_3 from "../car_3.jpg";
 
-export default function SimpleSlider() {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
+export default function Slider() {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
   };
   return (
-    <Slider {...settings}>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
-    </Slider>
+    <div className="Slider">
+      <h5>Browse by make</h5>
+      <Carousel responsive={responsive}>
+        <div className="Cards">
+          <img src={Car_3} />
+          <br />
+          Jeep
+        </div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+      </Carousel>
+    </div>
   );
 }
