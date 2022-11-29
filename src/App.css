@@ -104,3 +104,30 @@
     font-size: 16px;
   }
 }
+.Slider h5{
+  text-align: left;
+}
+.Cards {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgb(35 31 32 / 20%), 0 0 1px 0 rgb(35 31 32 / 10%);
+  padding: 0px;
+  margin: 20px;
+}
+.Cards:hover h6 {
+  box-shadow: 0 8px 16px 0 rgb(35 31 32 / 10%), 0 0 3px 0 rgb(35 31 32 / 5%);
+  color: #593cfb;
+  transition: 0.6s;
+}
+.Cards h6{
+  font-family: "Basis Grotesque";
+  font-size: 16px;
+  font-weight: 900;
+  color: #121214;
+  line-height: 42px;
+}
+.Cards img {
+  height: 190px;
+  width: 219px;
+  border-radius: 8px 8px 0px 0px;
+}
