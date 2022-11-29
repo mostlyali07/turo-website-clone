@@ -103,9 +103,24 @@
   .First h6 {
     font-size: 16px;
   }
+  .Cards {
+    margin: 0px 73px !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: calc(72% + 0px) !important;
+  }
 }
-.Slider h5{
+.Slider h5 {
   text-align: left;
+  font-family: "Basis Grotesque";
+  font-size: 21px;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  text-transform: none;
+  margin-left: 20px;
+  margin-bottom: -20px;
+  margin-top: 40px;
 }
 .Cards {
   background-color: #ffffff;
@@ -119,7 +134,7 @@
   color: #593cfb;
   transition: 0.6s;
 }
-.Cards h6{
+.Cards h6 {
   font-family: "Basis Grotesque";
   font-size: 16px;
   font-weight: 900;
@@ -130,4 +145,25 @@
   height: 190px;
   width: 219px;
   border-radius: 8px 8px 0px 0px;
+}
+.upperInput {
+  width: auto;
+}
+.react-multi-carousel-list {
+  padding-top: 30px;
+}
+.react-multiple-carousel__arrow--right {
+  top: calc(-2% + 8px);
+}
+.react-multiple-carousel__arrow--left {
+  left: calc(89% + 0px) !important;
+  top: calc(-2% + 8px);
+}
+.react-multiple-carousel__arrow {
+  min-width: 36px;
+  min-height: 36px;
+  background-color: #f2e9ff !important;
+}
+.react-multiple-carousel__arrow::before {
+  color: rgb(0, 0, 0) !important;
 }
