@@ -109,6 +109,9 @@
   .react-multiple-carousel__arrow--left {
     left: calc(72% + 0px) !important;
   }
+  .Footer_text {
+    padding: 10px 10px !important;
+  }
 }
 .Slider h5 {
   text-align: left;
@@ -166,4 +169,20 @@
 }
 .react-multiple-carousel__arrow::before {
   color: rgb(0, 0, 0) !important;
+}
+.Color_Gray{
+  background-color: #f4f4f4;
+}
+.Footer_text p{
+  color: #121214;
+  font-size: 12px;
+  font-family: "Basis Grotesque";
+}
+.Footer_text {
+  margin: 10px;
+  padding: 10px 200px;
+}
+.Color_Purple{
+  color: #593cfb;
+  text-decoration: none;
 }
