@@ -93,6 +93,58 @@ function Footer() {
                 </div>
             </div>
           </div>
+          <div className="row">
+            <div className="col-md-2">
+                <h6>Vehicle types</h6>
+                <ul>
+                    <li>About</li>
+                    <li>Team</li>
+                    <li>Policies</li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                    <li>OpenRoad</li>
+                    <li>Turo shop</li>
+                </ul>
+            </div>
+            <div className="col-md-2">
+            <h6>Makes</h6>
+                <ul>
+                    <li>USA (EN)</li>
+                    <li>Canada (EN)</li>
+                    <li>Canada (FR)</li>
+                    <li>UK (EN)</li>
+                </ul>
+            </div>
+            <div className="col-md-2">
+            <h6>Top cities</h6>
+                <ul>
+                    <li>Book a car</li>
+                    <li>Weddings</li>
+                    <li>Trust & safety</li>
+                    <li>Sustainability</li>
+                    <li>FAQs</li>
+                    <li>Get help</li>
+                </ul>
+            </div>
+            <div className="col-md-2">
+                <ul>
+                    <li>List your car</li>
+                    <li>Carculator</li>
+                    <li>All-Star Hosts</li>
+                    <li>Host tools</li>
+                    <li>Insurance & protection</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+            <div className="col-md-4">
+                <div className="Social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
