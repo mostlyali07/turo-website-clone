@@ -87,32 +87,6 @@
   height: 30px;
   margin-top: -26px;
 }
-@media only screen and (max-width: 600px) {
-  .Search {
-    height: auto;
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-  }
-  .First h1 {
-    font-size: 50px;
-  }
-  .First h6 {
-    font-size: 16px;
-  }
-  .Cards {
-    margin: 0px 73px !important;
-  }
-  .react-multiple-carousel__arrow--left {
-    left: calc(72% + 0px) !important;
-  }
-  .Footer_text {
-    padding: 10px 10px !important;
-  }
-}
 .Slider h5 {
   text-align: left;
   font-family: "Basis Grotesque";
@@ -170,19 +144,86 @@
 .react-multiple-carousel__arrow::before {
   color: rgb(0, 0, 0) !important;
 }
-.Color_Gray{
+.Color_Gray {
   background-color: #f4f4f4;
 }
-.Footer_text p{
+.Footer_text p {
   color: #121214;
   font-size: 12px;
   font-family: "Basis Grotesque";
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 24px 0px;
 }
 .Footer_text {
   margin: 10px;
-  padding: 10px 200px;
+  /* padding: 10px 200px; */
 }
-.Color_Purple{
+.Color_Purple {
   color: #593cfb;
   text-decoration: none;
+}
+.Footer_sec_one h6 {
+  color: #121214;
+  font-size: 16px;
+  font-family: "Basis Grotesque";
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+.Footer_sec_one ul {
+  margin: 0px;
+  padding: 0px;
+}
+.Footer_sec_one ul li {
+  color: #121214;
+  list-style: none;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: "Basis Grotesque";
+  line-height: 26px;
+}
+.Footsec {
+  border-top: 1px solid;
+  border-color: #e7e7e8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.Social {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Social i {
+  color: #121214;
+  font-size: 22px;
+}
+.Stores {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media only screen and (max-width: 600px) {
+  .Search {
+    height: auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  .First h1 {
+    font-size: 50px;
+  }
+  .First h6 {
+    font-size: 16px;
+  }
+  .Cards {
+    margin: 0px 73px !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: calc(72% + 0px) !important;
+  }
+  .Footer_text {
+    padding: 10px 10px !important;
+  }
 }
