@@ -4,6 +4,7 @@ import { Input, Button, DatePicker, TimePicker } from "antd";
 import dayjs from "dayjs";
 import { SearchOutlined } from "@ant-design/icons";
 import Slider from "./components/Slider";
+import Slider from "./components/SliderTwo";
 import Footer from "./components/Footer";
 
 const onChange = (date, dateString) => {
@@ -109,6 +110,7 @@ function App() {
         <div className="row">
           <div className="col-md-12">
             <Slider />
+            <SliderTwo />
             </div>
         </div>
       </div>
