@@ -201,6 +201,30 @@
   display: flex;
   justify-content: space-evenly;
 }
+.Sec_Sec{
+  align-items: center;
+}
+.Sec_Sec h3{
+  color: #121214;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Basis Grotesque";
+}
+.Sec_Sec p{
+  color: #121214;
+  font-size: 16px;
+  font-family: "Basis Grotesque";
+}
+.Sec_Sec button{
+  font-family: "Basis Grotesque";
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 49px;
+  font-weight: 500;
+  padding: 0 18px;
+  background-color: #593CFB;
+  border: 1px solid #593CFB;
+}
 @media only screen and (max-width: 600px) {
   .Search {
     height: auto;
