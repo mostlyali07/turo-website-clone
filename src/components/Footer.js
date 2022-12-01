@@ -89,10 +89,10 @@ function Footer() {
             </div>
             <div className="col-md-3">
               <div className="Social">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-youtube"></i>
               </div>
               <div className="Stores">
                 <svg
@@ -101,7 +101,7 @@ function Footer() {
                   height="40px"
                   viewBox="0 0 119.664 40"
                   aria-hidden="true"
-                  class="seo-pages-0"
+                  className="seo-pages-0"
                   role="img"
                   version="1.1"
                 >
@@ -131,7 +131,7 @@ function Footer() {
                   height="40px"
                   viewBox="0 0 150 44"
                   aria-hidden="true"
-                  class="seo-pages-0"
+                  className="seo-pages-0"
                   role="img"
                   version="1.1"
                 >

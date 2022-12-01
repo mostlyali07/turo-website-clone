@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Sec_1 from "../Sec_1.jpg";
 import "../App.css";
 
 export default function Slider() {
@@ -11,7 +12,7 @@ export default function Slider() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 5,
+      items: 1,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -23,13 +24,26 @@ export default function Slider() {
     },
   };
   return (
-    <div className="Slider text-center">
-      <h5>Browse by make</h5>
+    <div className="Slider">
       <Carousel responsive={responsive}>
-        <div className="Cards">
-          <img src={Car_3} />
-          <br />
-          <h6>Jeep</h6>
+        <div>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-1"></div>
+              <div className="col-md-5">
+                <img src={Sec_1} />
+              </div>
+              <div className="col-md-5">
+                <h3>
+                  Find the perfect car{" "}
+                  <span className="Color_Purple">
+                    to conquer the great outdoors
+                  </span>
+                </h3>
+              </div>
+              <div className="col-md-1"></div>
+            </div>
+          </div>
         </div>
       </Carousel>
     </div>
