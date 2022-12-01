@@ -5,6 +5,7 @@ import dayjs from "dayjs";
 import { SearchOutlined } from "@ant-design/icons";
 import Slider from "./components/Slider";
 import SliderTwo from "./components/SliderTwo";
+import Collapse from "./components/Collapse";
 import Footer from "./components/Footer";
 
 const onChange = (date, dateString) => {
@@ -111,6 +112,7 @@ function App() {
           <div className="col-md-12">
             <Slider />
             <SliderTwo />
+            <Collapse/>
             </div>
         </div>
       </div>

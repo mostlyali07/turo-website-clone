@@ -201,29 +201,36 @@
   display: flex;
   justify-content: space-evenly;
 }
-.Sec_Sec{
-  align-items: center;
+.Sec_Sec img {
+  width: 75%;
 }
-.Sec_Sec h3{
+.Sec_Sec h3 {
   color: #121214;
   font-size: 28px;
   font-weight: bold;
   font-family: "Basis Grotesque";
 }
-.Sec_Sec p{
+.Sec_Sec p {
   color: #121214;
   font-size: 16px;
   font-family: "Basis Grotesque";
 }
-.Sec_Sec button{
+.Sec_Sec button {
   font-family: "Basis Grotesque";
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 49px;
   font-weight: 500;
   padding: 0 18px;
-  background-color: #593CFB;
-  border: 1px solid #593CFB;
+  background-color: #593cfb;
+  border: 1px solid #593cfb;
+}
+.FAQs_one h1 {
+  font-family: "Freight_Text_Pro_Bold";
+  font-size: 52px;
+  color: #121214;
+  text-align: center;
+  z-index: 6;
 }
 @media only screen and (max-width: 600px) {
   .Search {
@@ -249,5 +256,11 @@
   }
   .Footer_text {
     padding: 10px 10px !important;
+  }
+  .FAQs_one h1 {
+    font-size: 26px;
+  }
+  .Sec_Sec img{
+    width: 100%;
   }
 }

@@ -35,7 +35,7 @@ export default function Slider() {
           <div className="container">
             <div className="row">
               <div className="col-md-1"></div>
-              <div className="col-md-5">
+              <div className="col-md-5 Sec_Sec">
                 <img src={Sec_1} />
               </div>
               <div className="col-md-5 Sec_Sec mt-5">
@@ -60,7 +60,7 @@ export default function Slider() {
           <div className="container">
             <div className="row">
               <div className="col-md-1"></div>
-              <div className="col-md-5">
+              <div className="col-md-5 Sec_Sec">
                 <img src={Sec_2} />
               </div>
               <div className="col-md-5 Sec_Sec mt-5">
@@ -86,7 +86,7 @@ export default function Slider() {
           <div className="container">
             <div className="row">
               <div className="col-md-1"></div>
-              <div className="col-md-5">
+              <div className="col-md-5 Sec_Sec">
                 <img src={Sec_3} />
               </div>
               <div className="col-md-5 Sec_Sec mt-5">
@@ -111,7 +111,7 @@ export default function Slider() {
           <div className="container">
             <div className="row">
               <div className="col-md-1"></div>
-              <div className="col-md-5">
+              <div className="col-md-5 Sec_Sec">
                 <img src={Sec_4} />
               </div>
               <div className="col-md-5 Sec_Sec mt-5">
@@ -136,7 +136,7 @@ export default function Slider() {
           <div className="container">
             <div className="row">
               <div className="col-md-1"></div>
-              <div className="col-md-5">
+              <div className="col-md-5 Sec_Sec">
                 <img src={Sec_5} />
               </div>
               <div className="col-md-5 Sec_Sec mt-5">
@@ -161,7 +161,7 @@ export default function Slider() {
           <div className="container">
             <div className="row">
               <div className="col-md-1"></div>
-              <div className="col-md-5">
+              <div className="col-md-5 Sec_Sec">
                 <img src={Sec_6} />
               </div>
               <div className="col-md-5 Sec_Sec mt-5">
