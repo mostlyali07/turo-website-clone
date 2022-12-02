@@ -5,6 +5,7 @@ import dayjs from "dayjs";
 import { SearchOutlined } from "@ant-design/icons";
 import Slider from "./components/Slider";
 import SliderTwo from "./components/SliderTwo";
+import SliderThree from "./components/SliderThree";
 import Collapse from "./components/Collapse";
 import Footer from "./components/Footer";
 
@@ -112,8 +113,9 @@ function App() {
           <div className="col-md-12">
             <Slider />
             <SliderTwo />
+            <SliderThree />
             <Collapse/>
-            </div>
+          </div>
         </div>
       </div>
       <Footer />
