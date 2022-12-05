@@ -1,7 +1,8 @@
 import React from "react";
 import "../App.css";
-import { DownOutlined } from "@ant-design/icons";
+import { CarOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
+import PopupOne from "./PopupOne";
 const items = [
   {
     label: "Log in",
@@ -12,6 +13,7 @@ const items = [
     key: "2",
   },
   {
+    icon: <CarOutlined />,
     label: "Become a host",
     key: "3",
   },
