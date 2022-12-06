@@ -311,6 +311,9 @@
 .Special span{
   text-decoration: underline;
 }
+.BGD{
+  margin-bottom: 50px;
+}
 .BGD img{
   width: 944px;
   height: 496px;
@@ -349,12 +352,15 @@
   .Dreams h2{
     font-size: 26px;
   }
+  .BGD{
+    margin-bottom: 250px;
+  }
   .BGD img{
     width: 310px;
     height: 200px;
   }
   .Special{
-    width: 310px;
+    width: 317px;
     height: 260px;
     margin-top: 200px;
   }
