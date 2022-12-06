@@ -85,7 +85,7 @@
 .Purple {
   background-color: #f2e9ff;
   height: 30px;
-  margin-top: -26px;
+  margin-top: -30px;
 }
 .Slider h5 {
   text-align: left;
@@ -255,15 +255,45 @@
   text-align: center;
   z-index: 6;
 }
-.ant-dropdown-menu-title-content{
+.ant-dropdown-menu-title-content {
   font-family: "Basis Grotesque";
   font-size: 16px;
   color: #414143;
   padding: 8px 12px;
 }
-.ant-dropdown-menu{
+.ant-dropdown-menu {
   background-color: #fff;
   padding: 8px;
+}
+.Dreams button {
+  font-family: "Basis Grotesque";
+  line-height: 49px;
+  font-weight: 600;
+  padding: 0 18px;
+  background-color: #593cfb;
+  border: 1px solid #593cfb;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  font-size: 18px;
+  transition: 0.5s border, 0.5s;
+}
+.Dreams p{
+  color: #121214;
+  margin-bottom: 24px;
+  font-family: "Basis Grotesque";
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.Dreams h2{
+  color: #121214;
+  font-family: "Freight_Text_Pro_Bold";
+  margin-top: 24px;
+  line-height: 56px;
+  font-size: 51px;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 @media only screen and (max-width: 600px) {
   .Search {
@@ -293,7 +323,10 @@
   .FAQs_one h1 {
     font-size: 26px;
   }
-  .Sec_Sec img{
+  .Sec_Sec img {
     width: 100%;
+  }
+  .Dreams h2{
+    font-size: 26px;
   }
 }

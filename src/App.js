@@ -8,6 +8,7 @@ import SliderTwo from "./components/SliderTwo";
 import SliderThree from "./components/SliderThree";
 import Collapse from "./components/Collapse";
 import Footer from "./components/Footer";
+import Dreams from "./components/Dreams";
 
 const onChange = (date, dateString) => {
   console.log(date, dateString);
@@ -115,6 +116,7 @@ function App() {
             <SliderTwo />
             <SliderThree />
             <Collapse/>
+            <Dreams/>
           </div>
         </div>
       </div>
