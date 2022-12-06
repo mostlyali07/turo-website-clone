@@ -255,6 +255,16 @@
   text-align: center;
   z-index: 6;
 }
+.ant-dropdown-menu-title-content{
+  font-family: "Basis Grotesque";
+  font-size: 16px;
+  color: #414143;
+  padding: 8px 12px;
+}
+.ant-dropdown-menu{
+  background-color: #fff;
+  padding: 8px;
+}
 @media only screen and (max-width: 600px) {
   .Search {
     height: auto;
