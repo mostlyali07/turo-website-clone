@@ -295,6 +295,26 @@
   font-weight: 400;
   letter-spacing: 0;
 }
+.Special{
+  background-color: #121214;
+  color: #fff;
+  display: block;
+  position: absolute;
+  text-align: left;
+  width: 360px;
+  height: 288px;
+  margin-top: 155px;
+}
+.Special, h6, h3, span{
+  font-family: "Basis Grotesque";
+}
+.Special span{
+  text-decoration: underline;
+}
+.BGD img{
+  width: 944px;
+  height: 496px;
+}
 @media only screen and (max-width: 600px) {
   .Search {
     height: auto;
@@ -328,5 +348,14 @@
   }
   .Dreams h2{
     font-size: 26px;
+  }
+  .BGD img{
+    width: 310px;
+    height: 200px;
+  }
+  .Special{
+    width: 310px;
+    height: 260px;
+    margin-top: 200px;
   }
 }
