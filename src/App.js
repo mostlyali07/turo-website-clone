@@ -9,6 +9,7 @@ import SliderThree from "./components/SliderThree";
 import Collapse from "./components/Collapse";
 import Footer from "./components/Footer";
 import Dreams from "./components/Dreams";
+import PopupOne from "./components/PopupOne";
 
 const onChange = (date, dateString) => {
   console.log(date, dateString);
@@ -55,6 +56,7 @@ function App() {
             <div className="navS">
               <button>Become a host</button>
               <Dropdown />
+              <PopupOne/>
             </div>
           </div>
         </div>
