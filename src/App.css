@@ -14,7 +14,7 @@
 
 .ahref a {
   font-family: "Basis Grotesque";
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   color: #414143;
 }
@@ -44,9 +44,11 @@
   font-size: 18px;
 }
 .Head {
-  background-image: url(./head.jpg);
-  background-position: center center;
+  background-image: url(./turo_main.jpg);
+  background-position: 0  0;
   background-repeat: no-repeat;
+  background-position-x: center;
+  /* background-position-y: center; */
   background-size: cover;
   height: 400px;
 }
@@ -363,5 +365,8 @@
     width: 317px;
     height: 260px;
     margin-top: 200px;
+  }
+  .ahref a {
+    font-size: 14px;
   }
 }
