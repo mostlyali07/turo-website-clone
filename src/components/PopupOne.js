@@ -1,7 +1,7 @@
-import React from 'react';
-import Popup from 'reactjs-popup';
-import "../App.css";
-
+import React from "react";
+import Popup from "reactjs-popup";
+import 'reactjs-popup/dist/index.css';
+// import "../App.css";
 
 export default () => (
   <Popup
@@ -50,11 +50,5 @@ export default () => (
         </div>
       </div>
     )}
-  </Popup>
-);
-
-const Modal = () => (
-  <Popup trigger={<button className="button"> Open Modal </button>} modal>
-    <span> Modal content </span>
   </Popup>
 );
