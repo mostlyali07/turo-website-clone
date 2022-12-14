@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/turo-website-clone/static/css/main.2180ed4d.css",
+    "main.js": "/turo-website-clone/static/js/main.9c732f60.js",
+    "static/js/787.417ae39a.chunk.js": "/turo-website-clone/static/js/787.417ae39a.chunk.js",
+    "static/media/turo_main.jpg": "/turo-website-clone/static/media/turo_main.7bda176d253f01146f1d.jpg",
+    "static/media/BasisGrotesqueArabicPro-Regular.ttf": "/turo-website-clone/static/media/BasisGrotesqueArabicPro-Regular.668dad8a3d4075989eae.ttf",
+    "static/media/lesssmall.webp": "/turo-website-clone/static/media/lesssmall.cd02c0e63fcae6718e9f.webp",
+    "static/media/FreightTextProBold-Regular.otf": "/turo-website-clone/static/media/FreightTextProBold-Regular.05371034c2eaa38a4f2d.otf",
+    "static/media/Sec_1.jpg": "/turo-website-clone/static/media/Sec_1.7b0907cb6316145376ab.jpg",
+    "static/media/Sec_3.jpg": "/turo-website-clone/static/media/Sec_3.b1880df7709820ef791f.jpg",
+    "static/media/Sec_2.jpg": "/turo-website-clone/static/media/Sec_2.029d7a04e6e32417f640.jpg",
+    "static/media/car_9.jpg": "/turo-website-clone/static/media/car_9.3f4d211fb6f1f782b0b4.jpg",
+    "static/media/Sec_6.jpg": "/turo-website-clone/static/media/Sec_6.e9b2bc3cd27df6ea6a74.jpg",
+    "static/media/car_2.jpg": "/turo-website-clone/static/media/car_2.387adbe733df9c16a7e8.jpg",
+    "static/media/Sec_4.jpg": "/turo-website-clone/static/media/Sec_4.34a3ed38d3e8ef8bfccd.jpg",
+    "static/media/car_8.jpg": "/turo-website-clone/static/media/car_8.69539a4820dc329ae4e0.jpg",
+    "static/media/car_10.jpg": "/turo-website-clone/static/media/car_10.e6120dfa926942aac002.jpg",
+    "static/media/car_6.jpg": "/turo-website-clone/static/media/car_6.8960f7c44c90d221e012.jpg",
+    "static/media/car_4.jpg": "/turo-website-clone/static/media/car_4.e96d634447087fb9d37e.jpg",
+    "static/media/car_5.jpg": "/turo-website-clone/static/media/car_5.7b3e4d47f41324b4d732.jpg",
+    "static/media/Sec_5.jpg": "/turo-website-clone/static/media/Sec_5.c607e0385d75c0d63058.jpg",
+    "static/media/car_3.jpg": "/turo-website-clone/static/media/car_3.8499b767dd88e25c9297.jpg",
+    "static/media/car_7.jpg": "/turo-website-clone/static/media/car_7.4d74723124fddac13ddc.jpg",
+    "static/media/car_1.jpg": "/turo-website-clone/static/media/car_1.640d822c4d484848bb32.jpg",
+    "static/media/city_2.png": "/turo-website-clone/static/media/city_2.a05c3021cd46e6a1dfc4.png",
+    "static/media/revicons.eot": "/turo-website-clone/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/turo-website-clone/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/turo-website-clone/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/turo-website-clone/index.html",
+    "main.2180ed4d.css.map": "/turo-website-clone/static/css/main.2180ed4d.css.map",
+    "main.9c732f60.js.map": "/turo-website-clone/static/js/main.9c732f60.js.map",
+    "787.417ae39a.chunk.js.map": "/turo-website-clone/static/js/787.417ae39a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2180ed4d.css",
+    "static/js/main.9c732f60.js"
+  ]
+}
