@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/turo-website-clone/static/css/main.182b166b.css",
-    "main.js": "/turo-website-clone/static/js/main.27ffef03.js",
+    "main.css": "/turo-website-clone/static/css/main.05f43ad4.css",
+    "main.js": "/turo-website-clone/static/js/main.c8a29130.js",
     "static/js/787.417ae39a.chunk.js": "/turo-website-clone/static/js/787.417ae39a.chunk.js",
     "static/media/turo_main.jpg": "/turo-website-clone/static/media/turo_main.7bda176d253f01146f1d.jpg",
     "static/media/BasisGrotesqueArabicPro-Regular.ttf": "/turo-website-clone/static/media/BasisGrotesqueArabicPro-Regular.668dad8a3d4075989eae.ttf",
@@ -28,12 +28,12 @@
     "static/media/revicons.ttf": "/turo-website-clone/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/turo-website-clone/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/turo-website-clone/index.html",
-    "main.182b166b.css.map": "/turo-website-clone/static/css/main.182b166b.css.map",
-    "main.27ffef03.js.map": "/turo-website-clone/static/js/main.27ffef03.js.map",
+    "main.05f43ad4.css.map": "/turo-website-clone/static/css/main.05f43ad4.css.map",
+    "main.c8a29130.js.map": "/turo-website-clone/static/js/main.c8a29130.js.map",
     "787.417ae39a.chunk.js.map": "/turo-website-clone/static/js/787.417ae39a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.182b166b.css",
-    "static/js/main.27ffef03.js"
+    "static/css/main.05f43ad4.css",
+    "static/js/main.c8a29130.js"
   ]
 }
