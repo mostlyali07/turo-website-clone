@@ -346,6 +346,34 @@
 .ant-form-item {
   margin-bottom: 6px;
 }
+.btn-threes{
+  height: 55px;
+  border-radius: 0px;
+  font-size: 16px;
+  font-family: "Basis Grotesque";
+  color: #121214;
+  font-weight: 500;
+}
+.or{
+  font-family: "Basis Grotesque";
+  font-size: 16px;
+}
+.btn-threes:hover{
+  background-color: #e7e7e8;
+  border-color: #470ab4 !important;
+  color: #000 !important;
+}
+.Log_in_btn{
+  height: 45px;  
+  border-radius: 0px;
+  font-family: "Basis Grotesque";
+  font-size: 18px;
+  background-color: #593cfb;
+  border-color: #593cfb;
+}
+.Log_in_btn:hover{
+  background-color: #470ab4 !important;
+}
 @media only screen and (max-width: 600px) {
   .Search {
     height: auto;
