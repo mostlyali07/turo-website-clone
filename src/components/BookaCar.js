@@ -10,7 +10,7 @@ const BookaCar = () => {
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 846 484"
-            class="ezo2sfm0 seo-pages-uqr0vw-IllustrationAtLargeSvgElement"
+            className="ezo2sfm0 seo-pages-uqr0vw-IllustrationAtLargeSvgElement"
             height="484px"
             role="img"
             version="1.1"

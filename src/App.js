@@ -10,6 +10,7 @@ import Collapse from "./components/Collapse";
 import Footer from "./components/Footer";
 import Dreams from "./components/Dreams"; 
 import BookaCar from "./components/BookaCar"; 
+import ModalOne from "./components/ModalOne"; 
 // import PopupOne from "./components/PopupOne";
 
 const onChange = (date, dateString) => {
@@ -120,6 +121,7 @@ function App() {
             <Dreams/>
             <BookaCar/>
             <Collapse/>
+            <ModalOne/>
             {/* <PopupOne /> */}
           </div>
         </div>

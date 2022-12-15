@@ -337,7 +337,12 @@
 .ant-collapse{
   background-color: #fff;
 }
-
+.ant-modal-title{
+  font-family: "Freight_Text_Pro_Bold";
+  color: #121214;
+  text-align: center;
+  font-size: 38px !important;
+}
 @media only screen and (max-width: 600px) {
   .Search {
     height: auto;

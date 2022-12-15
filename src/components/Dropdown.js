@@ -1,11 +1,13 @@
 import React from "react";
+import ModalOne from "./ModalOne"; 
 import "../App.css";
 // import { CarOutlined, KeyOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 const items = [
   {
-    label: "Log in",
+    label: <a  onClick={() => setOpen(true)}>Log in</a>,
     key: "1",
+    // onClick={() => setOpen(true)}
   },
   {
     label: "Sign up",

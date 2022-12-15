@@ -145,12 +145,12 @@ function Footer() {
                       y2="1966.904"
                       gradientTransform="matrix(.01303 0 0 -.0129 -.052 41.321)"
                     >
-                      <stop offset="0" stop-color="#00a0ff"></stop>
-                      <stop offset="0.007" stop-color="#00a1ff"></stop>
-                      <stop offset="0.26" stop-color="#00beff"></stop>
-                      <stop offset="0.512" stop-color="#00d2ff"></stop>
-                      <stop offset="0.76" stop-color="#00dfff"></stop>
-                      <stop offset="1" stop-color="#00e3ff"></stop>
+                      <stop offset="0" stopColor="#00a0ff"></stop>
+                      <stop offset="0.007" stopColor="#00a1ff"></stop>
+                      <stop offset="0.26" stopColor="#00beff"></stop>
+                      <stop offset="0.512" stopColor="#00d2ff"></stop>
+                      <stop offset="0.76" stopColor="#00dfff"></stop>
+                      <stop offset="1" stopColor="#00e3ff"></stop>
                     </linearGradient>
                     <linearGradient
                       id="b"
@@ -161,10 +161,10 @@ function Footer() {
                       y2="1498.484"
                       gradientTransform="matrix(.01303 0 0 -.0129 -.052 41.321)"
                     >
-                      <stop offset="0" stop-color="#ffe000"></stop>
-                      <stop offset="0.409" stop-color="#ffbd00"></stop>
-                      <stop offset="0.775" stop-color="orange"></stop>
-                      <stop offset="1" stop-color="#ff9c00"></stop>
+                      <stop offset="0" stopColor="#ffe000"></stop>
+                      <stop offset="0.409" stopColor="#ffbd00"></stop>
+                      <stop offset="0.775" stopColor="orange"></stop>
+                      <stop offset="1" stopColor="#ff9c00"></stop>
                     </linearGradient>
                     <linearGradient
                       id="c"
@@ -175,8 +175,8 @@ function Footer() {
                       y2="2923.914"
                       gradientTransform="matrix(.01303 0 0 -.0129 -.052 41.321)"
                     >
-                      <stop offset="0" stop-color="#ff3a44"></stop>
-                      <stop offset="1" stop-color="#c31162"></stop>
+                      <stop offset="0" stopColor="#ff3a44"></stop>
+                      <stop offset="1" stopColor="#c31162"></stop>
                     </linearGradient>
                     <linearGradient
                       id="d"
@@ -187,11 +187,11 @@ function Footer() {
                       y2="1385.975"
                       gradientTransform="matrix(.01303 0 0 -.0129 -.052 41.321)"
                     >
-                      <stop offset="0" stop-color="#32a071"></stop>
-                      <stop offset="0.069" stop-color="#2da771"></stop>
-                      <stop offset="0.476" stop-color="#15cf74"></stop>
-                      <stop offset="0.801" stop-color="#06e775"></stop>
-                      <stop offset="1" stop-color="#00f076"></stop>
+                      <stop offset="0" stopColor="#32a071"></stop>
+                      <stop offset="0.069" stopColor="#2da771"></stop>
+                      <stop offset="0.476" stopColor="#15cf74"></stop>
+                      <stop offset="0.801" stopColor="#06e775"></stop>
+                      <stop offset="1" stopColor="#00f076"></stop>
                     </linearGradient>
                   </defs>
                   <path d="M144.445 43.996H5.555C2.5 43.996 0 41.523 0 38.5V5.504C0 2.48 2.5.004 5.555.004h138.89c3.051 0 5.555 2.476 5.555 5.5V38.5c0 3.023-2.5 5.496-5.555 5.496zm0 0"></path>
