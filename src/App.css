@@ -320,6 +320,24 @@
   width: 944px;
   height: 496px;
 }
+.ant-dropdown-trigger{
+  padding: 10px 10px;
+  border-radius: 12px;
+}
+.ant-dropdown-trigger:hover{
+  background-color: #f4f4f4;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.ant-collapse-header-text{
+  font-family: "Basis Grotesque";
+  font-weight: 900;
+  color: #121214;
+}
+.ant-collapse{
+  background-color: #fff;
+}
+
 @media only screen and (max-width: 600px) {
   .Search {
     height: auto;
@@ -368,5 +386,8 @@
   }
   .ahref a {
     font-size: 14px;
+  }
+  .BookaCar svg{
+    width: 340px;
   }
 }

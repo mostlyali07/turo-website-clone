@@ -214,7 +214,7 @@ const items = [
         ></path>
       </svg>
     ),
-    label: "Carculator",
+    label: "Calculator",
     key: "9",
   },
 ];
