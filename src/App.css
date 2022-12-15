@@ -343,6 +343,9 @@
   text-align: center;
   font-size: 38px !important;
 }
+.ant-form-item {
+  margin-bottom: 6px;
+}
 @media only screen and (max-width: 600px) {
   .Search {
     height: auto;

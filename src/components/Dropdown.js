@@ -1,13 +1,10 @@
 import React from "react";
-import ModalOne from "./ModalOne"; 
 import "../App.css";
-// import { CarOutlined, KeyOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 const items = [
   {
-    label: <a  onClick={() => setOpen(true)}>Log in</a>,
+    label: <a href="/">Log in</a>,
     key: "1",
-    // onClick={() => setOpen(true)}
   },
   {
     label: "Sign up",
@@ -221,12 +218,13 @@ const items = [
   },
 ];
 const DropDown = () => (
+  <>
   <Dropdown
     menu={{
       items,
     }}
     trigger={["click"]}
-  >
+    >
     <a onClick={(e) => e.preventDefault()}>
       <Space>
         <i className="fa-solid fa-bars"></i>
@@ -234,5 +232,6 @@ const DropDown = () => (
       </Space>
     </a>
   </Dropdown>
+  </>  
 );
 export default DropDown;
