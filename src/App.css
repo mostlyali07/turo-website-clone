@@ -374,6 +374,9 @@
 .Log_in_btn:hover{
   background-color: #470ab4 !important;
 }
+.ant-modal-footer{
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   .Search {
     height: auto;
