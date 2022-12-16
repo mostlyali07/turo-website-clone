@@ -377,6 +377,35 @@
 .ant-modal-footer{
   display: none;
 }
+.sign_up{
+  margin-top: 20px;
+    font-family: "Basis Grotesque";
+    color: #121214;
+  font-size: 16px;
+}
+.sign_up button{
+  border-radius: 0px;
+    cursor: pointer;
+    font-family: "Basis Grotesque";
+    font-size: 16px;
+    height: 34px;
+    line-height: 33px;
+    padding: 0px 14px;
+    color: rgb(18, 18, 20);
+    border: 1px solid rgb(18, 18, 20);
+    font-weight: normal;
+  background-color: #fff;
+  margin-left: 12px;
+}
+.sign_up button:hover{
+  background: rgb(231, 231, 232);
+  color: #000 !important;
+  border-color: #000 !important;
+}
+.privacy p{
+    font-family: "Basis Grotesque";
+    font-size: 12px;
+}
 @media only screen and (max-width: 600px) {
   .Search {
     height: auto;

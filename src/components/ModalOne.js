@@ -127,6 +127,16 @@ const ModalOne = () => {
             Continue with Facebook
           </Button>
         </Form>
+        <div className="text-center sign_up">
+          Don’t have an account? <Button>Sign up</Button>
+        </div>
+        <div className="text-center privacy mt-4 mb-2">
+          <p>
+            This site is protected by reCAPTCHA and the Google{" "}
+            <span style={{color: "#593cfb"}}>Privacy Policy </span>
+            and <span style={{color: "#593cfb"}}>Terms of Service</span> apply
+          </p>
+        </div>
       </Modal>
     </>
   );
