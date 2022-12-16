@@ -6,6 +6,10 @@ const BookaCar = () => {
     <>
       <div className="row">
         <div className="col-md-12 text-center BookaCar">
+          <div className="Book_a_Car">
+            <h4>Book a car {">"}</h4>
+          <p>Down the street or across the <br /> country, find the perfect vehicle<br />  for your next adventure.</p>
+          </div>
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -145,6 +149,10 @@ const BookaCar = () => {
               fill="#dfc4ff"
             ></path>
           </svg>
+          <div className="Book_a_Car">
+            <h4>Become a host</h4>
+          <p>Accelerate your entrepreneurship <br /> and start building a small car sharing <br /> business on Turo.</p>
+          </div>
         </div>
       </div>
     </>
