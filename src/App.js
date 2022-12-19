@@ -112,8 +112,6 @@ function App() {
           </div>
           <div className="col-md-2"></div>
         </div>
-        <div className="row">
-          <div className="col-md-12">
             <Slider />
             <SliderTwo />
             <SliderThree />
@@ -121,6 +119,8 @@ function App() {
             <BookaCar/>
             <Collapse/>
             <ModalOne/>
+        <div className="row">
+          <div className="col-md-12">
           </div>
         </div>
       </div>
