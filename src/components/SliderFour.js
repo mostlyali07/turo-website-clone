@@ -29,7 +29,7 @@ export default function Slider() {
     },
   };
   return (
-    <div className="Slider text-center">
+    <div className="Slider">
       <h5>Browse by experience</h5>
       <Carousel responsive={responsive}>
         <div className="CardsFour">
