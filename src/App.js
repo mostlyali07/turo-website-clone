@@ -8,9 +8,10 @@ import SliderTwo from "./components/SliderTwo";
 import SliderThree from "./components/SliderThree";
 import Collapse from "./components/Collapse";
 import Footer from "./components/Footer";
-import Dreams from "./components/Dreams"; 
-import BookaCar from "./components/BookaCar"; 
-import ModalOne from "./components/ModalOne"; 
+import Dreams from "./components/Dreams";
+import BookaCar from "./components/BookaCar";
+import ModalOne from "./components/ModalOne";
+import SliderFour from "./components/SliderFour";
 
 const onChange = (date, dateString) => {
   console.log(date, dateString);
@@ -22,7 +23,9 @@ function App() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 text-center ahref pt-2">
-            <a href="/">Turo is open for business in Australia! Tap to explore cars.</a>
+            <a href="/">
+              Turo is open for business in Australia! Tap to explore cars.
+            </a>
           </div>
         </div>
         <div className="row">
@@ -112,16 +115,16 @@ function App() {
           </div>
           <div className="col-md-2"></div>
         </div>
-            <Slider />
-            <SliderTwo />
-            <SliderThree />
-            <Dreams/>
-            <BookaCar/>
-            <Collapse/>
-            <ModalOne/>
+        <Slider />
+        <SliderTwo />
+        <SliderThree />
+        <Dreams />
+        <SliderFour />
+        <BookaCar />
+        <Collapse />
+        <ModalOne />
         <div className="row">
-          <div className="col-md-12">
-          </div>
+          <div className="col-md-12"></div>
         </div>
       </div>
       <Footer />
