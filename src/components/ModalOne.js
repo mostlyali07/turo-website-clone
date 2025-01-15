@@ -7,10 +7,10 @@ const ModalOne = () => {
   return (
     <>
       <Button type="primary" onClick={() => setOpen(true)}>
-        Welcome back
+        Become a host
       </Button>
       <Modal
-        title="Welcome back"
+        title="Become a host"
         open={open}
         onOk={() => setOpen(false)}
         onCancel={() => setOpen(false)}
@@ -133,8 +133,8 @@ const ModalOne = () => {
         <div className="text-center privacy mt-4 mb-2">
           <p>
             This site is protected by reCAPTCHA and the Google{" "}
-            <span style={{color: "#593cfb"}}>Privacy Policy </span>
-            and <span style={{color: "#593cfb"}}>Terms of Service</span> apply
+            <span style={{ color: "#593cfb" }}>Privacy Policy </span>
+            and <span style={{ color: "#593cfb" }}>Terms of Service</span> apply
           </p>
         </div>
       </Modal>

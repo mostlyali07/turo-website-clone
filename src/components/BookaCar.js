@@ -5,7 +5,7 @@ const BookaCar = () => {
   return (
     <>
       <div className="row">
-        <div className="col-md-12 text-center BookaCar">
+        <div className="col-md-12 mt-5 text-center BookaCar">
           <div className="Book_a_Car">
             <h4>Book a car {">"}</h4>
           <p>Down the street or across the <br /> country, find the perfect vehicle<br />  for your next adventure.</p>

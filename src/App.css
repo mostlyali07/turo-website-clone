@@ -44,13 +44,11 @@
   font-size: 18px;
 }
 .Head {
-  background-image: url(./turo_main.jpg);
-  background-position: 0  0;
+  background: url(./6288409505.jpg) #ffffffd9;
   background-repeat: no-repeat;
-  background-position-x: center;
-  /* background-position-y: center; */
+  background-position: center 50%;
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 .Search {
   height: 65px;
@@ -106,7 +104,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px 0 rgb(35 31 32 / 20%), 0 0 1px 0 rgb(35 31 32 / 10%);
   padding: 0px;
-  margin: 20px;
+  margin: 30px 20px 20px 20px;
 }
 .Cards:hover h6 {
   box-shadow: 0 8px 16px 0 rgb(35 31 32 / 10%), 0 0 3px 0 rgb(35 31 32 / 5%);
@@ -279,7 +277,7 @@
   font-size: 18px;
   transition: 0.5s border, 0.5s;
 }
-.Dreams p{
+.Dreams p {
   color: #121214;
   margin-bottom: 24px;
   font-family: "Basis Grotesque";
@@ -288,7 +286,7 @@
   font-weight: 400;
   letter-spacing: 0;
 }
-.Dreams h2{
+.Dreams h2 {
   color: #121214;
   font-family: "Freight_Text_Pro_Bold";
   margin-top: 24px;
@@ -297,7 +295,7 @@
   font-weight: 400;
   letter-spacing: 0;
 }
-.Special{
+.Special {
   background-color: #121214;
   color: #fff;
   display: block;
@@ -307,37 +305,40 @@
   height: 288px;
   margin-top: 155px;
 }
-.Special, h6, h3, span{
+.Special,
+h6,
+h3,
+span {
   font-family: "Basis Grotesque";
 }
-.Special span{
+.Special span {
   text-decoration: underline;
 }
-.BGD{
+.BGD {
   margin-bottom: 50px;
 }
-.BGD img{
+.BGD img {
   width: 944px;
   height: 496px;
 }
-.ant-dropdown-trigger{
+.ant-dropdown-trigger {
   padding: 10px 10px;
   border-radius: 12px;
 }
-.ant-dropdown-trigger:hover{
+.ant-dropdown-trigger:hover {
   background-color: #f4f4f4;
   transition: 0.5s;
   cursor: pointer;
 }
-.ant-collapse-header-text{
+.ant-collapse-header-text {
   font-family: "Basis Grotesque";
   font-weight: 900;
   color: #121214;
 }
-.ant-collapse{
+.ant-collapse {
   background-color: #fff;
 }
-.ant-modal-title{
+.ant-modal-title {
   font-family: "Freight_Text_Pro_Bold";
   color: #121214;
   text-align: center;
@@ -346,7 +347,7 @@
 .ant-form-item {
   margin-bottom: 6px;
 }
-.btn-threes{
+.btn-threes {
   height: 55px;
   border-radius: 0px;
   font-size: 16px;
@@ -354,57 +355,57 @@
   color: #121214;
   font-weight: 500;
 }
-.or{
+.or {
   font-family: "Basis Grotesque";
   font-size: 16px;
 }
-.btn-threes:hover{
+.btn-threes:hover {
   background-color: #e7e7e8;
   border-color: #470ab4 !important;
   color: #000 !important;
 }
-.Log_in_btn{
-  height: 45px;  
+.Log_in_btn {
+  height: 45px;
   border-radius: 0px;
   font-family: "Basis Grotesque";
   font-size: 18px;
   background-color: #593cfb;
   border-color: #593cfb;
 }
-.Log_in_btn:hover{
+.Log_in_btn:hover {
   background-color: #470ab4 !important;
 }
-.ant-modal-footer{
+.ant-modal-footer {
   display: none;
 }
-.sign_up{
+.sign_up {
   margin-top: 20px;
-    font-family: "Basis Grotesque";
-    color: #121214;
+  font-family: "Basis Grotesque";
+  color: #121214;
   font-size: 16px;
 }
-.sign_up button{
+.sign_up button {
   border-radius: 0px;
-    cursor: pointer;
-    font-family: "Basis Grotesque";
-    font-size: 16px;
-    height: 34px;
-    line-height: 33px;
-    padding: 0px 14px;
-    color: rgb(18, 18, 20);
-    border: 1px solid rgb(18, 18, 20);
-    font-weight: normal;
+  cursor: pointer;
+  font-family: "Basis Grotesque";
+  font-size: 16px;
+  height: 34px;
+  line-height: 33px;
+  padding: 0px 14px;
+  color: rgb(18, 18, 20);
+  border: 1px solid rgb(18, 18, 20);
+  font-weight: normal;
   background-color: #fff;
   margin-left: 12px;
 }
-.sign_up button:hover{
+.sign_up button:hover {
   background: rgb(231, 231, 232);
   color: #000 !important;
   border-color: #000 !important;
 }
-.privacy p{
-    font-family: "Basis Grotesque";
-    font-size: 12px;
+.privacy p {
+  font-family: "Basis Grotesque";
+  font-size: 12px;
 }
 @media only screen and (max-width: 600px) {
   .Search {
@@ -437,17 +438,17 @@
   .Sec_Sec img {
     width: 100%;
   }
-  .Dreams h2{
+  .Dreams h2 {
     font-size: 26px;
   }
-  .BGD{
+  .BGD {
     margin-bottom: 250px;
   }
-  .BGD img{
+  .BGD img {
     width: 310px;
     height: 200px;
   }
-  .Special{
+  .Special {
     width: 317px;
     height: 260px;
     margin-top: 200px;
@@ -455,7 +456,7 @@
   .ahref a {
     font-size: 14px;
   }
-  .BookaCar svg{
+  .BookaCar svg {
     width: 340px;
   }
 }

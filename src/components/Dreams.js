@@ -4,7 +4,7 @@ import BGD from "../lesssmall.webp"
 const Dreams = () => {
   return (
     <>
-      <div className="container">
+      <div className="container my-5">
         <div className="row">
           <div className="col-md-3"></div>
           <div className="col-md-6 Dreams text-center">

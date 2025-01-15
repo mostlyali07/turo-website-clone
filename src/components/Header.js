@@ -1,5 +1,6 @@
 import React from "react";
 import Dropdown from "./Dropdown";
+import ModalOne from "./ModalOne";
 
 const Header = () => {
   return (
@@ -41,7 +42,8 @@ const Header = () => {
             </a>
           </div>
           <div className="navS">
-            <button>Become a host</button>
+            <ModalOne />
+            {/* <button>Become a host</button> */}
             <Dropdown />
           </div>
         </div>

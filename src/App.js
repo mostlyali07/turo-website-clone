@@ -64,7 +64,7 @@ function App() {
           <div className="col-md-2"></div>
         </div>
       </div>
-      <div className="container">
+      <div className="container mt-5">
         <div className="row">
           <div className="col-md-2"></div>
           <div className="col-md-8 First text-center">
@@ -81,7 +81,6 @@ function App() {
         <SliderFour />
         <BookaCar />
         <Collapse />
-        <ModalOne />
         <div className="row">
           <div className="col-md-12"></div>
         </div>
